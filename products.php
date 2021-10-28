@@ -4,9 +4,9 @@
  </head>
  <body>
     <ul>
-        <li><a href="/product1.php">iPhone</a></li>
-        <li><a href="/product2.php">Pixel Phone</a></li>
-        <li><a href="/product3.php">Samsung</a></li>
+        <li><a href="/product.php?<?php echo http_build_query(['id' => 1]) ?>">iPhone</a></li>
+        <li><a href="/product.php?id=2">Pixel Phone</a></li>
+        <li><a href="/product.php?id=3">Samsung</a></li>
     </ul>
  </body>
 </html>
