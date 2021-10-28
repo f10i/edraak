@@ -3,11 +3,11 @@ session_start();
 $id = $_GET['id'];
 
 if ($id == 1) {
-	$name = "iPhone";
+	$name = "Alienware";
 } elseif ($id == 2) {
-	$name = "Pixel Phone";
+	$name = "Macbook Pro";
 } elseif ($id == 3) {
-	$name = "Samsung";
+	$name = "Acer Predator";
 } else {
 	$name = "invalid product";
 }
