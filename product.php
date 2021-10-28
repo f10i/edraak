@@ -3,7 +3,7 @@ session_start();
 $id = $_GET['id'];
 
 if ($id == 1) {
-	$name = "iPhon";
+	$name = "iPhone";
 } elseif ($id == 2) {
 	$name = "Pixel Phone";
 } elseif ($id == 3) {
